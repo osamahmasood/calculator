@@ -55,6 +55,11 @@ button {
     color: #fff;
 }
 
+.backspace {
+    background-color: #cccccc;
+    color: #333;
+}
+
 @keyframes slideIn {
     from {
         opacity: 0;
