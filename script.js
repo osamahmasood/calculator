@@ -10,3 +10,8 @@ function calculate() {
 function clearResult() {
     document.getElementById('result').value = '';
 }
+
+function backspace() {
+    var currentValue = document.getElementById('result').value;
+    document.getElementById('result').value = currentValue.slice(0, -1);
+}
